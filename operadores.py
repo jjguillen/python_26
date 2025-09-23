@@ -39,3 +39,5 @@ print('NOT (num_one greater than 2 AND num_two greater than 2)? ', not (num_one 
 print(num_one != num_two)
 print( not (num_one != num_two) )
 
+print("algo")
+
