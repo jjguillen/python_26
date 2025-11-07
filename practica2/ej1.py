@@ -24,3 +24,9 @@ def calcular_estadisticas(numeros):
     moda = modas[0] if len(modas) == 1 else modas  # Si hay más de una moda, devolver todas
 
     return {"media": media, "mediana": mediana, "moda": moda}
+
+
+# Ejemplo de uso
+numeros = [1, 2, 2, 3, 4]
+estadisticas = calcular_estadisticas(numeros)
+print(estadisticas)  # Salida: {'media': 2.4, 'mediana': 2, 'moda': 2}
