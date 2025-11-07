@@ -8,8 +8,9 @@
 #
 #La función debe retornar True si cumple todos los criterios, False en caso contrario.
 
+import re
+
 def validar_contrasena(contrasena):
-    import re
 
     if len(contrasena) < 8:
         return False
@@ -23,3 +24,5 @@ def validar_contrasena(contrasena):
         return False
 
     return True
+
+print(validar_contrasena("Password123!"))  # Ejemplo de uso
